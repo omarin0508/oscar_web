@@ -45,7 +45,7 @@
           </div>
         </div>
 
-        <aside class="hero-card">
+        <aside class="hero-card" aria-label="Enfoque de trabajo">
           <div class="hero-card-header">
             <h2>Enfoque de trabajo</h2>
             <p class="hero-card-intro">
@@ -61,7 +61,6 @@
             </ul>
           </div>
         </aside>
-
       </div>
     </section>
 
@@ -87,7 +86,7 @@
           <p>Capacidades técnicas en diseño y ejecución de proyectos</p>
         </header>
 
-        <div class="skills-wrap">
+        <div class="skills-wrap" aria-label="Lista de habilidades">
           <span class="skill-chip">Dirección técnica</span>
           <span class="skill-chip">Supervisión de obra</span>
           <span class="skill-chip">Control de costos</span>
@@ -150,7 +149,7 @@
       </div>
     </section>
 
-    <!-- PROYECTOS (YA CON FOTOS) -->
+    <!-- PROYECTOS -->
     <section id="proyectos" class="section">
       <div class="container">
         <header class="section-head">
@@ -183,17 +182,51 @@
             <p>Ejecución de vivienda y administración de obra.</p>
           </article>
         </div>
-
       </div>
     </section>
 
-    <!-- CONTACTO -->
+    <!-- CONTACTO (CON FORMULARIO) -->
     <section id="contacto" class="section">
       <div class="container">
         <header class="section-head">
           <h2>Contacto</h2>
+          <p>Escribime y coordinamos una llamada o visita técnica.</p>
         </header>
-        <p>Email: <a href="mailto:oscarcontek@icloud.com">oscarcontek@icloud.com</a></p>
+
+        <div class="contact-card">
+          <p><strong>Email:</strong> <a href="mailto:oscarcontek@icloud.com">oscarcontek@icloud.com</a></p>
+
+          <!-- Opción A: abre el correo del visitante con el mensaje listo -->
+          <form
+            class="contact-form"
+            action="mailto:oscarcontek@icloud.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <div class="form-grid">
+              <label class="field">
+                <span>Nombre</span>
+                <input type="text" name="nombre" required placeholder="Tu nombre" />
+              </label>
+
+              <label class="field">
+                <span>Email</span>
+                <input type="email" name="email" required placeholder="tunombre@email.com" />
+              </label>
+            </div>
+
+            <label class="field">
+              <span>Mensaje</span>
+              <textarea name="mensaje" rows="5" required placeholder="Contame sobre tu proyecto..."></textarea>
+            </label>
+
+            <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+          </form>
+
+          <p style="margin-top:12px; color: var(--muted); font-size:.9rem;">
+            *Al enviar, se abrirá tu aplicación de correo para completar el envío.
+          </p>
+        </div>
       </div>
     </section>
   </main>
