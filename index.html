@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -12,7 +11,6 @@
   <div id="top" class="page-top" aria-hidden="true"></div>
 
   <!-- HEADER -->
-
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="Ir al inicio">
@@ -20,168 +18,243 @@
         <span class="brand-name">Ing. Oscar Marín</span>
       </a>
 
-```
-  <nav class="site-nav" aria-label="Navegación principal">
-    <a href="#top">Inicio</a>
-    <a href="#about">Sobre mí</a>
-    <a href="#habilidades">Habilidades</a>
-    <a href="#servicios">Servicios</a>
-    <a href="#proyectos">Proyectos</a>
-    <a class="nav-cta" href="#contacto">Contactar</a>
-  </nav>
-</div>
-```
-
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a href="#top">Inicio</a>
+        <a href="#about">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proyectos">Proyectos</a>
+        <a class="nav-cta" href="#contacto">Contactar</a>
+      </nav>
+    </div>
   </header>
 
   <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="hero-kicker">Ingeniería civil · dirección técnica · gestión de obra</p>
+          <h1>Ing. Oscar Marín</h1>
+          <p class="hero-subtitle">
+            Acompañamiento técnico desde el planeamiento inicial hasta la ejecución y administración del proyecto.
+          </p>
 
-```
-<!-- HERO -->
-<section class="hero">
-  <div class="container hero-inner">
-    <div class="hero-copy">
-      <p class="hero-kicker">Ingeniería civil · dirección técnica · gestión de obra</p>
-      <h1>Ing. Oscar Marín</h1>
-      <p class="hero-subtitle">
-        Acompañamiento técnico desde el planeamiento inicial hasta la ejecución y administración del proyecto.
-      </p>
-
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
-        <a class="btn btn-ghost" href="#contacto">Contactar</a>
-      </div>
-    </div>
-
-    <aside class="hero-card">
-      <div class="hero-card-header">
-        <h2>Enfoque de trabajo</h2>
-        <p class="hero-card-intro">
-          Claridad técnica, control económico y seguimiento constante.
-        </p>
-      </div>
-      <div class="hero-card-body">
-        <ul class="mini-list">
-          <li>Orden en el proceso</li>
-          <li>Control de presupuesto</li>
-          <li>Reportes al cliente</li>
-          <li>Soluciones prácticas</li>
-        </ul>
-      </div>
-    </aside>
-  </div>
-</section>
-
-<!-- SOBRE MI -->
-<section id="about" class="section">
-  <div class="container">
-    <header class="section-head">
-      <h2>Sobre mí</h2>
-      <p>Experiencia en proyectos residenciales e institucionales.</p>
-    </header>
-
-    <div class="about-grid">
-      <div class="about-text">
-        <p>
-          Ingeniero civil enfocado en planificación, control de costos y coordinación técnica durante todas las etapas de la obra.
-        </p>
-        <p>
-          Acompañamiento completo desde la idea inicial hasta la entrega final del proyecto.
-        </p>
-      </div>
-
-      <aside class="about-aside">
-        <div class="stat">
-          <span class="stat-label">Ubicación</span>
-          <span class="stat-value">Costa Rica</span>
-        </div>
-        <div class="stat">
-          <span class="stat-label">Enfoque</span>
-          <span class="stat-value">Gestión + ejecución</span>
-        </div>
-        <div class="stat">
-          <span class="stat-label">Contacto</span>
-          <span class="stat-value">oscarcontek@icloud.com</span>
-        </div>
-      </aside>
-    </div>
-  </div>
-</section>
-
-<!-- PROYECTOS -->
-<section id="proyectos" class="section">
-  <div class="container">
-    <header class="section-head">
-      <h2>Proyectos</h2>
-      <p>Selección de trabajos realizados.</p>
-    </header>
-
-    <div class="projects-grid">
-
-      <article class="project-card">
-        <figure class="project-figure">
-          <img src="images/zapote.jpg" alt="Apartamentos en Zapote San José" loading="lazy">
-          <figcaption class="project-caption">Apartamentos — Zapote, San José</figcaption>
-        </figure>
-        <p>Construcción y coordinación general de proyecto residencial.</p>
-      </article>
-
-      <article class="project-card">
-        <figure class="project-figure">
-          <img src="images/una.jpg" alt="Proyecto Universidad Nacional Costa Rica" loading="lazy">
-          <figcaption class="project-caption">Universidad Nacional</figcaption>
-        </figure>
-        <p>Proyecto institucional con gestión técnica y control de obra.</p>
-      </article>
-
-      <article class="project-card">
-        <figure class="project-figure">
-          <img src="images/tierras-cafe.jpg" alt="Vivienda Tierras del Café Heredia" loading="lazy">
-          <figcaption class="project-caption">Vivienda — Tierras del Café</figcaption>
-        </figure>
-        <p>Ejecución de vivienda y administración de obra.</p>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<!-- CONTACTO -->
-<section id="contacto" class="section">
-  <div class="container">
-    <header class="section-head">
-      <h2>Contacto</h2>
-      <p>Escribime para coordinar visita o llamada.</p>
-    </header>
-
-    <div class="contact-card">
-      <p><strong>Email:</strong> <a href="mailto:oscarcontek@icloud.com">oscarcontek@icloud.com</a></p>
-
-      <form class="contact-form">
-        <div class="form-grid">
-          <label class="field">
-            <span>Nombre</span>
-            <input type="text" name="nombre" required>
-          </label>
-
-          <label class="field">
-            <span>Email</span>
-            <input type="email" name="email" required>
-          </label>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+            <a class="btn btn-ghost" href="#contacto">Contactar</a>
+          </div>
         </div>
 
-        <label class="field">
-          <span>Mensaje</span>
-          <textarea name="mensaje" rows="5" required></textarea>
-        </label>
+        <aside class="hero-card">
+          <div class="hero-card-header">
+            <h2>Enfoque de trabajo</h2>
+            <p class="hero-card-intro">
+              Claridad técnica, control económico y seguimiento constante.
+            </p>
+          </div>
+          <div class="hero-card-body">
+            <ul class="mini-list">
+              <li>Orden en el proceso</li>
+              <li>Control de presupuesto</li>
+              <li>Reportes al cliente</li>
+              <li>Soluciones prácticas</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-        <button class="btn btn-primary" type="submit">Enviar mensaje</button>
-      </form>
-    </div>
-  </div>
-</section>
-```
+    <!-- SOBRE MI -->
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Sobre mí</h2>
+          <p>Experiencia en proyectos residenciales e institucionales.</p>
+        </header>
 
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Ingeniero civil enfocado en planificación, control de costos y coordinación técnica durante todas las etapas de la obra.
+            </p>
+            <p>
+              Acompañamiento completo desde la idea inicial hasta la entrega final del proyecto.
+            </p>
+          </div>
+
+          <aside class="about-aside">
+            <div class="stat">
+              <span class="stat-label">Ubicación</span>
+              <span class="stat-value">Costa Rica</span>
+            </div>
+            <div class="stat">
+              <span class="stat-label">Enfoque</span>
+              <span class="stat-value">Gestión + ejecución</span>
+            </div>
+            <div class="stat">
+              <span class="stat-label">Contacto</span>
+              <span class="stat-value">oscarcontek@icloud.com</span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Habilidades</h2>
+          <p>Capacidades clave para llevar un proyecto de obra de principio a fin.</p>
+        </header>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Dirección técnica</h3>
+            <p>Supervisión en sitio, control de calidad, seguridad y coordinación de equipos.</p>
+          </article>
+
+          <article class="card">
+            <h3>Presupuestación</h3>
+            <p>Cómputos métricos, análisis de costos, comparativos y optimización de rubros.</p>
+          </article>
+
+          <article class="card">
+            <h3>Planificación</h3>
+            <p>Cronogramas, hitos, seguimiento de avances y comunicación con el cliente.</p>
+          </article>
+
+          <article class="card">
+            <h3>Control económico</h3>
+            <p>Seguimiento de costos, control de cambios e imprevistos con reporte claro.</p>
+          </article>
+
+          <article class="card">
+            <h3>Coordinación</h3>
+            <p>Proveedores y subcontratos, coordinación técnica y ejecución ordenada.</p>
+          </article>
+
+          <article class="card">
+            <h3>Documentación</h3>
+            <p>Reportes, respaldos y entregables para decisiones técnicas y administrativas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Servicios</h2>
+          <p>Servicios profesionales enfocados en resultados, control y orden del proyecto.</p>
+        </header>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Dirección técnica</h3>
+            <p>Supervisión y control de la ejecución en obra, calidad y avance.</p>
+          </article>
+
+          <article class="card">
+            <h3>Presupuestos y estimaciones</h3>
+            <p>Presupuestos detallados por actividad y materiales, con control económico.</p>
+          </article>
+
+          <article class="card">
+            <h3>Gestión de obra</h3>
+            <p>Planificación, seguimiento y coordinación de equipos y contratistas.</p>
+          </article>
+
+          <article class="card">
+            <h3>Asesoría técnica</h3>
+            <p>Revisión de soluciones, mejoras constructivas y toma de decisiones.</p>
+          </article>
+
+          <article class="card">
+            <h3>Reportes al cliente</h3>
+            <p>Estado de avance, control de costos, pendientes y próximos pasos claros.</p>
+          </article>
+
+          <article class="card">
+            <h3>Apoyo en trámites</h3>
+            <p>Soporte documental y coordinación según necesidades del proyecto.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Proyectos</h2>
+          <p>Selección de trabajos realizados.</p>
+        </header>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <figure class="project-figure">
+              <img src="images/zapote.jpg" alt="Apartamentos en Zapote San José" loading="lazy" />
+              <figcaption class="project-caption">Apartamentos — Zapote, San José</figcaption>
+            </figure>
+            <p>Construcción y coordinación general de proyecto residencial.</p>
+          </article>
+
+          <article class="project-card">
+            <figure class="project-figure">
+              <img src="images/una.jpg" alt="Proyecto Universidad Nacional Costa Rica" loading="lazy" />
+              <figcaption class="project-caption">Universidad Nacional</figcaption>
+            </figure>
+            <p>Proyecto institucional con gestión técnica y control de obra.</p>
+          </article>
+
+          <article class="project-card">
+            <figure class="project-figure">
+              <img src="images/tierras-cafe.jpg" alt="Vivienda Tierras del Café Heredia" loading="lazy" />
+              <figcaption class="project-caption">Vivienda — Tierras del Café</figcaption>
+            </figure>
+            <p>Ejecución de vivienda y administración de obra.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Contacto</h2>
+          <p>Escribime para coordinar visita o llamada.</p>
+        </header>
+
+        <div class="contact-card">
+          <p><strong>Email:</strong> <a href="mailto:oscarcontek@icloud.com">oscarcontek@icloud.com</a></p>
+
+          <form class="contact-form">
+            <div class="form-grid">
+              <label class="field">
+                <span>Nombre</span>
+                <input type="text" name="nombre" required />
+              </label>
+
+              <label class="field">
+                <span>Email</span>
+                <input type="email" name="email" required />
+              </label>
+            </div>
+
+            <label class="field">
+              <span>Mensaje</span>
+              <textarea name="mensaje" rows="5" required></textarea>
+            </label>
+
+            <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -190,6 +263,5 @@
       <a href="#top">Volver arriba ↑</a>
     </div>
   </footer>
-
 </body>
 </html>
